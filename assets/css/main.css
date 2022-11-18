@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fc724d;
+    letter-spacing: 0.1px;
+    margin-top: 154px;
+  }
+  .mx {
+    margin: 0 200px;
+  }
+  .py {
+    padding: 50px 0;
+  }
+  li{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
