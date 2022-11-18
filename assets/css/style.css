@@ -193,6 +193,7 @@ h3 {
   border: none;
   margin-top: 20px;
   transition: 0.8s;
+  cursor: pointer;
 }
 .price-content button:hover {
   transform:scale(1.1);
