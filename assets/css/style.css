@@ -136,9 +136,8 @@ h3 {
 .price-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr 1fr 1fr);
-  gap: 35px;
+  gap: 55px;
 }
-
 .price-card {
   height: 700px;
   background-color: rgba(255, 255, 255, 1);
@@ -171,7 +170,7 @@ h3 {
 
 .price-content button {
   width: 100%;
-  padding: 15px 40px;
+ height: 50px;
   background-color: rgba(252, 114, 77, 1);
   color: #fff;
   border-radius: 5px;
@@ -235,6 +234,7 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .customer-importance-top {
@@ -272,7 +272,7 @@ align-items: center;
   line-height: 24px;
   letter-spacing: 0.2px;
   color: rgba(252, 114, 77, 1);
-  margin-bottom: 0;
+  margin: 0;
 }
 .about-user p{
   font-size: 12px;
@@ -280,7 +280,7 @@ align-items: center;
   line-height: 16px;
   letter-spacing: 0.2px;
   color: rgba(37, 43, 66, 1);
-  margin-top: 0;
+  margin: 0;
 }
 
                  /* contacts */
@@ -301,7 +301,6 @@ align-items: center;
 .contacts li{
   margin-top: 7px;
 }
-
 /* .about-user{
   display: flex;
   flex-direction: column;
