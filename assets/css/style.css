@@ -1,7 +1,8 @@
-      /* header */
+/* header */
 
 header {
   height: 729px;
+  width: 100%;
   background: linear-gradient(
       89.83deg,
       #ffffff 14.24%,
@@ -34,9 +35,9 @@ header {
   border: none;
   color: #fff;
   cursor: pointer;
- transition: 0.8s;
+  transition: 0.8s;
 }
- .navbar button:hover {
+.navbar button:hover {
   opacity: 0.9;
   transform: translateY(-5px) scale(1);
 }
@@ -50,7 +51,6 @@ header {
 }
 
 header h1 {
-  width: 560px;
   height: 160px;
   font-weight: 700;
   font-size: 58px;
@@ -60,16 +60,14 @@ header h1 {
   margin-top: 0;
 }
 header p {
-  width: 338px;
   height: 30px;
   font-weight: 400;
   font-size: 20px;
   color: rgba(115, 115, 115, 1);
   letter-spacing: 0.2px;
 }
-        /* doctors */
+/* doctors */
 .section-top {
-  width: 600px;
 }
 .section-top h2 {
   font-size: 40px;
@@ -79,7 +77,7 @@ header p {
   color: rgba(37, 43, 66, 1);
 }
 .info {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.2px;
   line-height: 20px;
@@ -98,7 +96,7 @@ header p {
   padding: 30px 60px 30px 40px;
   transition: 0.8s;
 }
-.card:hover{
+.card:hover {
   transform: translateY(-5px);
 }
 .card-icon {
@@ -126,15 +124,11 @@ h3 {
   color: rgba(37, 43, 66, 1);
   letter-spacing: 0.1px;
 }
-                /* price */
+/* price */
 
 .price {
   background-color: rgba(38, 51, 93, 1);
-  height: 1470px;
   margin-top: 100px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .price-top h2 {
@@ -145,25 +139,24 @@ h3 {
 }
 
 .price-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr 1fr 1fr);
-  gap: 55px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 .price-card {
   height: 700px;
   background-color: rgba(255, 255, 255, 1);
-  width: 320px;
   transition: 0.8s;
+  margin-top: 10px;
 }
 .price-content {
   padding: 50px 40px;
-  
 }
-.price-card:hover{
+.price-card:hover {
   transform: translateY(-7px);
 }
 .price-content h6 {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
@@ -177,7 +170,7 @@ h3 {
   letter-spacing: 0.2px;
 }
 .price-content p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.2px;
@@ -186,7 +179,7 @@ h3 {
 
 .price-content button {
   width: 100%;
- height: 50px;
+  height: 50px;
   background-color: rgba(252, 114, 77, 1);
   color: #fff;
   border-radius: 5px;
@@ -196,7 +189,7 @@ h3 {
   cursor: pointer;
 }
 .price-content button:hover {
-  transform:scale(1.1);
+  transform: scale(1.1);
 }
 
 .price-content .free {
@@ -209,6 +202,9 @@ h3 {
 
 .about-card {
   padding: 50px 0;
+}
+.about-card div {
+  margin-top: 18px;
 }
 .about-card span {
   font-size: 14px;
@@ -223,35 +219,28 @@ h3 {
   height: 20px;
 }
 
-                 /* customer importance */
-
-.rating{
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr 1fr 1fr); */
-  display: flex;
-  justify-content: space-between;
+/* customer importance */
+.rating {
+   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   gap: 60px;
 }
-/* .rating-card{
-  text-align: center;
-} */
 
 .rating-card-top img {
   width: 20px;
   height: 20px;
- 
 }
 .rating-card-top {
-display: block;
-text-align: center;
-align-items: center;
+  display: block;
+  text-align: center;
+  align-items: center;
 }
-.rating-card-top p{
-  padding: 0 80px;
+.rating-card-top p {
+  font-size: 18px;
 }
 
-.rating-card-bottom{
+.rating-card-bottom {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,26 +266,25 @@ align-items: center;
   color: rgba(37, 43, 66, 1);
 }
 .customer-importance-top p {
-  width: 550px;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.2px;
   color: rgba(115, 115, 115, 1);
 }
-.about-user{
+.about-user {
   margin-left: 15px;
 }
-.about-user h6{
-  font-size: 14px;
+.about-user h6 {
+  font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.2px;
   color: rgba(252, 114, 77, 1);
   margin: 0;
 }
-.about-user p{
-  font-size: 12px;
+.about-user p {
+  font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0.2px;
@@ -304,41 +292,54 @@ align-items: center;
   margin: 0;
 }
 
-                 /* contacts */
-.contacts{
+/* contacts */
+.contacts {
   text-align: center;
 }
-.contacts img{
+.contacts h5 {
+  font-size: 20px;
+}
+.contacts img {
   width: 20px;
   height: auto;
   margin-right: 10px;
 }
-.contact-title{
+.contact-title {
   color: rgba(37, 43, 66, 1);
 }
-.contacts span{
+.contacts span {
   color: rgba(115, 115, 115, 1);
+  font-size: 18px;
 }
-.contacts li{
+.contacts li {
   margin-top: 7px;
 }
-/* .about-user{
-  display: flex;
-  flex-direction: column;
-} */
-
-           /* footer */
-.social{
+/* footer */
+.social {
   margin-top: 100px;
-  text-align: right;
+  text-align: center;
   background: #e5e5e5;
-  padding-right: 300px;
-  padding-top: 20px;
+  padding-top: 30px;
   height: 70px;
 }
-.social a{
+.social a {
   width: 18px;
   height: 18px;
- margin-right: 10px;
+  margin-right: 10px;
 }
 
+/* media querry */
+@media only screen and (max-width: 992px) {
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    max-width: 75%;
+  }
+  .price-cards {
+    flex-direction: column;
+  }
+  .rating{
+    flex-wrap: wrap
+  }
+}
